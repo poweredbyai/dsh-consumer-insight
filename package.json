@@ -49,5 +49,14 @@
     "market-research",
     "questionnaire"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poweredbyai/dsh-consumer-insight.git"
+  },
+  "homepage": "https://github.com/poweredbyai/dsh-consumer-insight#readme",
+  "bugs": {
+    "url": "https://github.com/poweredbyai/dsh-consumer-insight/issues"
+  },
+  "author": "poweredbyai",
   "license": "MIT"
 }

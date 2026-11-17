@@ -30,7 +30,7 @@ This project encodes the standard practice for two research types (brand tracker
 Requires DeepSeek Harness `0.2.1-rc.5` or later (`< 0.3`). No model is needed for generation.
 
 ```bash
-dsh plugin --profile desktop add git+https://github.com/<owner>/dsh-consumer-insight.git
+dsh plugin --profile desktop add git+https://github.com/poweredbyai/dsh-consumer-insight.git
 
 # or from a local directory
 dsh plugin --profile desktop add /path/to/dsh-consumer-insight
@@ -109,3 +109,4 @@ node tests/panel.mjs    # render the panel and four views with a React stub
 ## License
 
 [MIT](LICENSE)
+

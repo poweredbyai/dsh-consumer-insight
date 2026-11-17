@@ -31,7 +31,7 @@ DeepSeek Harness 插件。把消费者调研里最费时的四件事——判断
 
 ```bash
 # 从 GitHub 安装
-dsh plugin --profile desktop add git+https://github.com/<owner>/dsh-consumer-insight.git
+dsh plugin --profile desktop add git+https://github.com/poweredbyai/dsh-consumer-insight.git
 
 # 或安装本地目录
 dsh plugin --profile desktop add /path/to/dsh-consumer-insight
@@ -129,3 +129,4 @@ node tests/panel.mjs    # 用 React 替身渲染面板与四个视图
 ## License
 
 [MIT](LICENSE)
+
