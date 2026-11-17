@@ -1,5 +1,7 @@
 # Consumer insight desk · dsh-consumer-insight
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > Fill in an objective and a research type; get a questionnaire you can send to a fieldwork agency, an analysis framework you can take into a meeting, and a concrete plan for how the sample should be allocated.
 
 A DeepSeek Harness plugin. It turns the slowest four parts of consumer research — deciding what to ask, writing the questionnaire, preparing the analysis framework, and sizing the sample — into standard templates plus a form. Generation is deterministic: no network, no model calls, reproducible output. Personalisation happens afterwards, in chat, by changing parameters and regenerating.
@@ -109,4 +111,5 @@ node tests/panel.mjs    # render the panel and four views with a React stub
 ## License
 
 [MIT](LICENSE)
+
 

@@ -1,5 +1,7 @@
 # 消费者洞察工作台 · dsh-consumer-insight
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > 填项目目标与调研类型，生成一份能直接发给代理的问卷、一份能带进会议的分析框架，以及一套「样本怎么分」的抽样配额。
 
 DeepSeek Harness 插件。把消费者调研里最费时的四件事——判断该问什么、写问卷、备分析框架、算样本怎么分——做成标准件 + 填表生成。生成是确定性的：不联网、不调用模型、结果可复现；要个性化时再在对话里让 Agent 改参数重生成。
@@ -129,4 +131,5 @@ node tests/panel.mjs    # 用 React 替身渲染面板与四个视图
 ## License
 
 [MIT](LICENSE)
+
 

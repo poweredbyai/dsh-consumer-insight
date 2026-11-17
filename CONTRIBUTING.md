@@ -62,6 +62,15 @@ node tests/panel.mjs    # 用 React 替身渲染面板与四个视图
 - 文案风格：短句、具体、不堆形容词；问卷题面用受访者能听懂的话。
 - 涉及调研伦理的改动（知情同意、配额、个人信息）请在 PR 里说明依据。
 
+## CI
+
+仓库尚未启用 GitHub Actions：首次推送所用的凭据没有 `workflow` 权限。想启用：
+
+1. 复制 `docs/ci.yml.example` 到 `.github/workflows/ci.yml`；
+2. 用带 `workflow` 权限的凭据推送（`gh auth refresh -s workflow` 后即可）。
+
+工作流只做三件事：`node build.mjs`、三组测试，不需要安装依赖。
+
 ## 提交
 
 - 一个 PR 做一件事；描述里写清「改了什么、为什么、怎么验证」。
