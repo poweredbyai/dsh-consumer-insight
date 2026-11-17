@@ -1,0 +1,22 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build client bundle
+        run: node build.mjs
+      - name: Generator tests
+        run: node tests/smoke.mjs
+      - name: Host tests
+        run: node tests/host.mjs
+      - name: Panel render tests
+        run: node tests/panel.mjs

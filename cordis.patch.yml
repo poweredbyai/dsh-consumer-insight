@@ -1,0 +1,4 @@
+# dsh-consumer-insight bundle patch：同一个包提供 Host 半片（生成引擎 + 接口 + 工具）与浏览器半片（整页工作台）
+- insert:
+    - id: consumer-insight
+      name: 'dsh-consumer-insight'

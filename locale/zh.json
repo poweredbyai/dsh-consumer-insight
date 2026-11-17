@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "消费者洞察工作台",
+    "description": "填项目目标与调研类型，生成问卷、分析框架、抽样配额，并导出 Word 问卷与 Excel 分析框架。",
+    "detail": "docs/DETAIL.md"
+  }
+}
