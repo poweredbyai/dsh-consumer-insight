@@ -1,0 +1,50 @@
+name: Bug report
+description: 生成结果不对、界面异常、安装失败
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先确认：`node tests/smoke.mjs`、`node tests/host.mjs`、`node tests/panel.mjs` 是否通过，以及 DSH 版本。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: 插件版本（package.json 里的 version）与 DSH 版本
+      placeholder: "dsh-consumer-insight 0.1.0 / DSH 0.2.2-rc.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 出问题的部分
+      options:
+        - 面板 / 界面
+        - 问卷内容
+        - 分析框架
+        - 抽样与配额
+        - Word / Excel 文件
+        - 安装 / 加载
+        - Agent 工具
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 填了什么参数、点了什么、期望什么、实际什么
+      placeholder: |
+        1. 类型选「品牌追踪」，品类填「即饮咖啡」…
+        2. 点「生成方案」
+        3. 期望 22 分钟左右，实际 35 分钟
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错或截图
+      description: 控制台报错、界面截图、生成文件片段都可以直接贴
+      render: text
+    validations:
+      required: false

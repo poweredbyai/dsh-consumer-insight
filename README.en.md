@@ -97,6 +97,15 @@ Not just a sample size — a plan for how to allocate it:
 - Quotas, cost and schedule are recommendations, subject to the sampling frame and agency quotes.
 - The questionnaire includes informed consent; minors are excluded; follow the ICC/ESOMAR International Code and applicable data protection law.
 
+## Roadmap
+
+- v1.1: the remaining six research types (U&A, concept/product, advertising, price/pack, brand equity, customer journey)
+- v1.1: bilingual questionnaire (Chinese/English)
+- v1.2: wave comparison — load the previous wave's `project.json` and mark changed questions and trend slots
+- v1.2: project templates, save and share
+
+Open an issue or send a PR — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Development
 
 No third-party runtime dependencies: Node built-ins plus a native OOXML writer.
@@ -111,5 +120,6 @@ node tests/panel.mjs    # render the panel and four views with a React stub
 ## License
 
 [MIT](LICENSE)
+
 
 

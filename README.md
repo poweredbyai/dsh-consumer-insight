@@ -103,6 +103,15 @@ dsh plugin --profile desktop add /path/to/dsh-consumer-insight
 - 配额、成本、排期是建议值，最终以抽样框与代理报价为准。
 - 问卷含知情同意；排除未成年人；遵循 ICC/ESOMAR 国际准则与《个人信息保护法》。
 
+## 路线图
+
+- v1.1：其余 6 类调研（U&A、概念/产品、广告、价格/包装、品牌资产、客户旅程）
+- v1.1：中英对照问卷
+- v1.2：波次对比（载入上一波 `project.json`，自动标出变动题与趋势位）
+- v1.2：项目模板另存与导入，团队共享
+
+想加别的？开 issue 或直接提 PR，见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ## 开发
 
 无第三方运行时依赖，Node 内置模块 + 原生 OOXML 生成器。
@@ -131,5 +140,6 @@ node tests/panel.mjs    # 用 React 替身渲染面板与四个视图
 ## License
 
 [MIT](LICENSE)
+
 
 

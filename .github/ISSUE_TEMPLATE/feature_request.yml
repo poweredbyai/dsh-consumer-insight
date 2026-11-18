@@ -1,0 +1,37 @@
+name: Feature request
+description: 想加一类调研、加一个模块，或改生成规则
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        加调研类型请看 [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) 的「加一类调研」；如果愿意直接提 PR 更好。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 新增调研类型（playbook）
+        - 新增/调整题目
+        - 分析框架
+        - 抽样与配额
+        - Word / Excel 版式
+        - 面板交互
+        - 文档
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决什么问题
+      description: 描述真实项目里遇到的场景，比描述功能更有用
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你希望它怎么工作
+      description: 有参考的问卷、报告或行业做法可以贴链接
+    validations:
+      required: false
