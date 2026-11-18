@@ -60,3 +60,10 @@
 - 「品牌追踪标准件都包含哪些模块」→ 调 `insight_playbook`。
 - 「上次那个满意度项目参数是什么」→ 调 `insight_project`。
 
+
+## 源码与反馈
+
+- 仓库：https://github.com/poweredbyai/dsh-consumer-insight
+- 问题与建议：https://github.com/poweredbyai/dsh-consumer-insight/issues
+- 想加一类调研：见仓库里的 CONTRIBUTING.md
+
